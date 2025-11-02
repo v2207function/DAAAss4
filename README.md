@@ -19,16 +19,16 @@ PrimMST/
 │   │   ├── java/
 │   │   │   ├── model/          # Graph data models
 │   │   │   ├── graph/
-│   │   │   │   ├── scc/        # Tarjan SCC implementation
-│   │   │   │   ├── topo/       # Topological sorting
-│   │   │   │   └── dagsp/      # DAG shortest / longest paths
+│   │   │   │   ├── scc/        # SCC algorithms
+│   │   │   │   ├── topo/       # Topological sort
+│   │   │   │   └── dagsp/      # DAG shortest/longest paths
 │   │   │   ├── util/           # Metrics and utilities
-│   │   │   └── org/example/    # Main entry point
+│   │   │   └── org/example/    # Main class
 │   │   └── resources/
 │   └── test/
-│       └── java/               # Tests
-├── data/                        # Pre-generated datasets
-├── pom.xml                      # Maven config
+│       └── java/               # JUnit tests
+├── data/                        # Test datasets
+├── pom.xml                      # Maven configuration
 └── README.md
 
 Requirements
