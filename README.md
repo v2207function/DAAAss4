@@ -31,6 +31,7 @@ PrimMST/
 ├── data/                        # Test datasets
 ├── pom.xml                       # Maven configuration
 └── README.md
+```
 
 Requirements
 
