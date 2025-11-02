@@ -13,6 +13,7 @@ Topological Sorting — Kahn's algorithm
 Shortest and Longest Paths in a DAG — dynamic programming based on topological order
 
 Project Structure
+```plaintext
 PrimMST/
 ├── src/
 │   ├── main/
@@ -28,7 +29,7 @@ PrimMST/
 │   └── test/
 │       └── java/               # JUnit tests
 ├── data/                        # Test datasets
-├── pom.xml                      # Maven configuration
+├── pom.xml                       # Maven configuration
 └── README.md
 
 Requirements
